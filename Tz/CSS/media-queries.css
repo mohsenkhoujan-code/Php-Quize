@@ -1,0 +1,257 @@
+
+@media screen and (max-width: 1030px) {
+    :root{
+        --width: 250px;
+        --width: 230px;
+        --lmg: 100px;
+        --mg: 20px;
+        --animatefont: 28px;
+        --btnsize: 14px;
+        --cont-height: 450px;
+        --wont: 700px;
+        --cont-mtop: 3%;
+        --inpwidth: 28vw;
+        --wart: 600px;
+        --divfont: 15px;
+    }
+}
+
+
+@media screen and (max-width: 820px) {
+    :root{
+        --width: 230px;
+        --lmg: 100px;
+        --mg: 20px;
+        --desktop: block;
+        --phone: none;
+        --animatefont: 20px;
+        --boxwidth: 350px;
+        --sendwidth: 80px;
+        --worm: 680px;
+        --wart: 70vw;
+        --hart: 90px;
+        --csi-width: 75px;
+        --csi-height: 75px;
+        --divfont: .8rem;
+        
+    }
+    #files{
+        width: 20vw;
+    }
+    .plan3 h1{
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    :root{
+        --width: 210px;
+        --margin: 21%;
+        --width: 230px;
+        --lmg: 0px;
+        --mg: 5px;
+        --desktop: none;
+        --phone: block;
+        /*--display-block: none;*/
+        --display-flex: none;
+        --wont: 300px;
+        --sendwidth: 250px;
+        --cont-height: 600px;
+        --cont-mtop: 7vh;
+        --btnsize: 25px;
+        --worm: auto;
+        --inpwidth: 70vw;
+    }
+    .table{
+        display: none;
+    }
+    .cardrsr{
+        display: block;
+    }
+    .self-card{
+        width: 90vw;
+        margin-bottom: 100px;
+    }
+    .self , .card{
+        display: none;
+    }
+    .self-m , .card-m{
+        display: block;
+        width: 90vw;
+        height: 40vh;
+        background-color: white;
+        box-shadow: 0 0 10px 3px rgba(0,0,0,.1);
+        margin: 25px auto;
+    }
+    .self-m{
+        background-color: rgb(205, 224, 255);
+    }
+    #profile{
+        width: inherit;
+        height: 35%;
+        align-content: center;
+        text-align: center;
+    }
+    #profile img{
+        width: 100px;
+        height: 100px;
+        margin: 8px auto;
+        border-radius: 100%;
+    }
+    #niknam{
+        font-size: 2rem;
+        font-family: mjmandana;
+        text-align: center;
+        height: 20%;
+        align-content: center;
+        padding-top: 5px;
+    }
+    #username{
+        font-size: 1rem;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        text-align: center;
+        color:#474747;
+        height: 20%;
+    }
+    #ninfo{
+        display: flex;
+        height: 20%;
+    }
+    #ninfo div{
+        width: 50%;
+        font-size: .9rem;
+        text-align: center;
+        align-content: center;
+        font-weight: bold;
+    }
+    .plan1 input[type="text"] , .plan1 input[type="password"]{
+        width: 60vw;
+        border: 3px solid black;
+        border-radius: 10px;
+        font-weight: bold;
+    }
+    .plan2 input[type="text"]{
+        width: 60vw;
+        border: 3px solid black;
+        border-radius: 10px;
+        font-weight: bold;
+    }
+    #smit{
+        width: 70vw;
+    }
+    .container-s{
+        width: 100%;
+ 
+    }
+    .form{
+        width: 100%;
+        height: 93vh;
+        box-shadow: none;
+    }
+    #h1{
+        margin: 5px;
+        width: inherit;
+        height: 100%;
+        padding-top: 10vh;
+    }
+    #h2{
+        margin: 5px;
+        width: inherit;
+        height: 100%;
+    }
+    #files{
+        width: 30vw;
+    }
+
+    #captcha-img{
+        float: center;
+    }
+    .next, .prev {
+        position: relative;
+        bottom: -8vh;
+        height: 8vh;
+        font-size: 30px;
+
+    }
+    #sign-in-bodies{
+        background-color: #fefafa;
+
+    }
+    .prev{
+        display: inline-block;
+    }
+    .plan1{
+        margin-top: 0;
+    }
+    #back{
+        display: none;
+    }
+    #testzors{
+        display: none;
+    }
+    .send{
+        margin-top: 10px;}
+    #ck h1{
+        margin-top: 0;
+        margin-bottom: 5px;
+        text-align: center;
+        padding-left: 8vw;
+        font-size: 50px;
+    }
+    #ck{
+        padding-right: 1vw;
+    }
+    @keyframes id {
+        0% {color: red}
+        50% {color: black}
+        100% {color: red}
+    }
+    #spanl{
+        animation-name: id;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        animation-delay: 100ms;
+    }
+    .send{
+        border-radius: 20px;
+        font-weight: bold;
+    }
+    .unf{
+        background-color: rgba(10, 10, 10,1);
+        border-width: 5px;
+        border-color: hsl(0, 0%, 0%);
+        border-style: solid;
+        font-weight: bold;
+        color: hsl(0, 0%, 100%); 
+    }
+    .boxes{
+        height: 48px;
+        border-width: 3px;
+        font-weight: bold;
+    }
+    
+}
+
+@media screen and (max-width: 375px) {
+    :root{
+        --width: 210px;
+        --margin: 18%;
+        --width: 230px;
+        --lmg: 0px;
+        --mg: 3px;
+        --desktop: none;
+        --phone: block;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    :root{
+        --width: 200px;
+        --margin: 15%;
+        --width: 230px;
+        --lmg: 0px;
+        --mg: 0px;
+        --desktop: none;
+        --phone: block;
+    }
+}
